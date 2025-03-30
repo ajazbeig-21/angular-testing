@@ -1,2 +1,69 @@
-node_modules
-dist
+# Angular related
+/node_modules/
+/dist/
+/tmp/
+/out-tsc/
+/coverage/
+/.angular/
+/.angular-cache/
+
+# Environment and configuration files
+/.env
+/.env.*.local
+/src/environments/environment*.ts
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Compiled JavaScript
+*.js
+*.js.map
+
+# Logs and Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Miscellaneous
+/.npm/
+/.pnp/
+/.pnp.js
+/coverage/
+/typings/
+
+# Angular build artifacts
+/*.tar.gz
+/*.zip
+
+# Optional npm cache
+.npm
+
+# Protractor end-to-end tests
+/e2e/*.js
+/e2e/*.map
+
+# Cypress test results
+/cypress/videos/
+/cypress/screenshots/
+/cypress/downloads/
+
+# Linting
+*.tsbuildinfo
+/.eslintcache
+/.prettier-cache
+
+# AWS SAM/Serverless
+.aws-sam/
+.serverless/
+
+# Angular Service Worker
+/ngsw-config.json
+/ngsw-worker.js
+/ngsw.json
